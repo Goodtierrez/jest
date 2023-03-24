@@ -1,3 +1,4 @@
+
 // declaramos una funcion con el mismo nombre "formEuroToDollar"
 const fromEuroToDollar = function (valueInEuro) {
     // convertimos el valor a dolares
@@ -6,6 +7,7 @@ const fromEuroToDollar = function (valueInEuro) {
     return valueInDollar;
 }
 
+console.log(fromEuroToDollar(20));
 
 let oneEuroIs = {
     "JPY": 127.9, // japan yen
@@ -18,7 +20,7 @@ function fromDollarToYen(dollars) {
     return yen;
 }
 
-console.log(fromDollarToYen(1));
+console.log(fromDollarToYen(20));
 
 
 const fromYenToPound = (yens) => {
@@ -28,7 +30,7 @@ const fromYenToPound = (yens) => {
 
 }
 
-console.log(fromYenToPound(250));
+console.log(fromYenToPound(13));
 
 
 
